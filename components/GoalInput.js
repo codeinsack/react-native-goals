@@ -21,7 +21,6 @@ const GoalInput = ({ onAddGoal, visible, onCancel }) => {
 
   return (
     <Modal visible={visible} animationType="slide">
-      <View>Hello!</View>
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Course Goal"
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '60%',
-    marginTop: '20px',
+    marginTop: 20,
   },
   button: {
     width: '40%',
